@@ -4,7 +4,9 @@
   "description": "",
   "main": "/src/bot/index.js",
   "scripts": {
-    "start": "node ./dist/bot/index.js"
+    "start": "node ./dist/bot/index.js",
+    "build": "gulp",
+    "dev": "gulp dev"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,11 @@
   },
   "devDependencies": {
     "@types/rc": "^1.1.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-nodemon": "^2.5.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
     "typescript": "^4.1.2"
   }
 }
